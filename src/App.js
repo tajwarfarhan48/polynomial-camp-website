@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import './output.css';
+import Navbar from './Navbar.js';
+import Banner from './Banner.js';
+import Intro from './Intro.js';
+import Camp1 from './Camp1.js';
+import Outline from './Outline.js';
+import FAQ from './FAQ.js';
+import Camp2 from './Camp2.js';
+import Camp3 from './Camp3.js';
+import Camp4 from './Camp4.js';
+import Team from './Team.js';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div class="flex flex-col items-center justify-center">
+      <Navbar />
+      <Banner />
+      <div class="mx-6 max-w-[1200px] flex flex-col justify-center items-center">
+        <Intro />
+        <Team />
+        <Camp1 />
+        <Camp2 />
+        <Camp3 />
+        <Camp4 />
+        <Outline />
+        <FAQ />
+      </div>
     </div>
   );
 }
