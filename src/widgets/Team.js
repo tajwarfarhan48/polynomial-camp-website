@@ -1,5 +1,5 @@
 import Button from './Button';
-import './output.css';
+import '../output.css';
 
 let teamMembers = [
     {

@@ -1,9 +1,9 @@
-import './output.css';
-import LecturesSVG from './static/svg/lectures.svg';
-import CampSVG from './static/svg/problem-solving-camps.svg';
-import OfficeHoursSVG from './static/svg/office-hours.svg';
-import FinalProjectSVG from './static/svg/final-project.svg';
-import GuestTalksSVG from './static/svg/guest-talks.svg';
+import '../output.css';
+import LecturesSVG from '../static/svg/lectures.svg';
+import CampSVG from '../static/svg/problem-solving-camps.svg';
+import OfficeHoursSVG from '../static/svg/office-hours.svg';
+import FinalProjectSVG from '../static/svg/final-project.svg';
+import GuestTalksSVG from '../static/svg/guest-talks.svg';
 
 let perks = [
   {

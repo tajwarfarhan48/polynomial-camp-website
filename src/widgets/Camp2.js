@@ -1,4 +1,4 @@
-import './output.css';
+import '../output.css';
 import Quote from './Quote.js';
 import Paragraph from './Paragraph.js';
 import Button from './Button.js';

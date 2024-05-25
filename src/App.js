@@ -1,14 +1,14 @@
 import './output.css';
-import Navbar from './Navbar.js';
-import Banner from './Banner.js';
-import Intro from './Intro.js';
-import Camp1 from './Camp1.js';
-import Outline from './Outline.js';
-import FAQ from './FAQ.js';
-import Camp2 from './Camp2.js';
-import Camp3 from './Camp3.js';
-import Camp4 from './Camp4.js';
-import Team from './Team.js';
+import Navbar from './widgets/Navbar.js';
+import Banner from './widgets/Banner.js';
+import Intro from './widgets/Intro.js';
+import Camp1 from './widgets/Camp1.js';
+import Outline from './widgets/Outline.js';
+import FAQ from './widgets/FAQ.js';
+import Camp2 from './widgets/Camp2.js';
+import Camp3 from './widgets/Camp3.js';
+import Camp4 from './widgets/Camp4.js';
+import Team from './widgets/Team.js';
 
 function App() {
   return (

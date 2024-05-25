@@ -1,4 +1,4 @@
-import './output.css';
+import '../output.css';
 
 let bundles = [
   {
