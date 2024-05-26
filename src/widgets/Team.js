@@ -3,8 +3,8 @@ import '../output.css';
 
 let teamMembers = [
     {
-        name: 'Jubayer Ibn Hamid',
-        camp: 'Mathematics Camp',
+        name: 'JUBAYER IBN HAMID',
+        camp: 'MATHEMATICS CAMP',
         websiteLink: 'https://jubayer-hamid.github.io/',
         description: 'Jubayer is currently doing research on machine learning in IRIS Lab, Stanford Artificial Intelligence Laboratory (SAIL). He studied mathematics/physics at Stanford University as an undergrad and computer science/mathematics for masters. His research interests are in offline reinforcement learning and representation learning. He has worked on problems like disentangled representation learning, reinforcement learning theory and behavior sampling algorithms. In mathematics, he is interested in abstract algebra and algebraic topology/geometry.',
     },
@@ -43,7 +43,7 @@ let teamMembers = [
 function Team() {
     return (
         <div>
-            <h1 class="text-xl font-bold text-center">Meet the Team</h1>
+            <h1 class="text-5xl font-bold text-center text-white mb-6">MEET THE TEAM</h1>
                 <ul>
                     {teamMembers.map((t) => <TeamMember name={t.name} camp={t.camp} websiteLink={t.websiteLink} description={t.description}/>)}
                 </ul>
@@ -55,13 +55,13 @@ function TeamMember({ name, camp, websiteLink, description }) {
     return (
         <li class="rounded overflow-hidden shadow-lg flex flex-col md:odd:flex-row md:even:flex-row-reverse">
             <div class="w-full flex items-center justify-center">
-                <img class="bg-black size-48 rounded-full border-2 border-red" alt={name}></img>
+                <img class="bg-black size-60 mb-8 rounded-full border-2 border-purple" alt={name}></img>
             </div>
             <div class="w-full flex flex-col items-center justify-center">
-                <p>{name}</p>
-                <p>{camp}</p>
-                <p>{description}</p>
-                <Button label={"Visit their website"} link={websiteLink}/>
+                <p class="text-center text-purple font-bold text-3xl mb-3">{name}</p>
+                <p class="text-center text-purple font-bold text-xl mb-5">{camp}</p>
+                <p class="leading-relaxed tracking-wide text-cream text-md font-light text-center mb-5">{description}</p>
+                <button class="mb-12 border border-cream rounded-full px-4 py-2 w-fit"><a target="_blank" rel="noreferrer" href={websiteLink}><p class="text-white">Visit their Website</p></a></button>
             </div>
         </li>
     );

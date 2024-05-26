@@ -6,8 +6,8 @@ import Button from './Button.js';
 function Camp1() {
     return (
         <div class="flex flex-col space-y-6 my-6">
-            <h1 class="text-xl font-bold text-center">Mathematics Camp 1 - Real Analysis and Linear Algebra:</h1>
-            <p class="text-center w-full">Instructor: Jubayer Ibn Hamid</p>
+            <h1 class="text-5xl font-bold text-center text-white mb-6">Mathematics Camp 1 - Real Analysis and Linear Algebra:</h1>
+            <p class="text-center w-full text-white">Instructor: Jubayer Ibn Hamid</p>
             <Quote text={"The beauty of mathematics only shows itself to more patient followers - Maryam Mirzakhani"} />
             <Paragraph text={"Real analysis and linear algebra are not just fascinating in and of themselves; they are extremely useful. More modern sciences, like machine learning and optimization, employ these fields of mathematics almost every step of their way."} />
             <Paragraph text={"In real analysis, we will first take a close look at what defines integers, rationals and real numbers - their various axioms and consequences. After that, we will study sequences of real numbers - their limits, properties of subsequences and special kinds of sequences like monotone, bounded, etc. Then, we will naturally move on to series and functions - their limits, continuity, etc. We will close by taking a brief look at metric spaces - open, closed sets and continuous functions on metric spaces. After doing so, we will gain a much better understanding of reals in general. In linear algebra, we will take a brief look at fields and then focus on vector spaces defined on them - in particular, finite-dimensional ones. We will then study linear maps which will motivate the study of matrices, null spaces, etc. followed by the study of dual spaces. We will close by taking a look at eigenspaces and inner product spaces."} />

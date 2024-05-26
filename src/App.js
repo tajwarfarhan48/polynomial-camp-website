@@ -12,7 +12,7 @@ import Team from './widgets/Team.js';
 
 function App() {
   return (
-    <div class="flex flex-col items-center justify-center">
+    <div class="flex flex-col items-center bg-black justify-center">
       <Navbar />
       <Banner />
       <div class="mx-6 max-w-[1200px] flex flex-col justify-center items-center">
