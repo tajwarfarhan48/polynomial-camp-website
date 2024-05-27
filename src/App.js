@@ -9,13 +9,15 @@ import Camp2 from './widgets/Camp2.js';
 import Camp3 from './widgets/Camp3.js';
 import Camp4 from './widgets/Camp4.js';
 import Team from './widgets/Team.js';
+import Fees from './widgets/Fees.js';
+import Footer from './widgets/Footer.js';
 
 function App() {
   return (
-    <div class="flex flex-col items-center bg-black justify-center">
+    <div className="flex flex-col items-center bg-black justify-center">
       <Navbar />
       <Banner />
-      <div class="mx-6 max-w-[1200px] flex flex-col justify-center items-center">
+      <div className="mx-6 max-w-[1200px] flex flex-col justify-center items-center">
         <Intro />
         <Team />
         <Camp1 />
@@ -23,8 +25,10 @@ function App() {
         <Camp3 />
         <Camp4 />
         <Outline />
+        <Fees />
         <FAQ />
       </div>
+      <Footer />
     </div>
   );
 }
