@@ -587,21 +587,6 @@ video {
   margin-bottom: 1.5rem;
 }
 
-.my-2 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.mx-2 {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-}
-
-.mx-4 {
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
 .mb-12 {
   margin-bottom: 3rem;
 }
@@ -630,12 +615,12 @@ video {
   margin-bottom: 2rem;
 }
 
-.mt-6 {
-  margin-top: 1.5rem;
-}
-
 .ml-4 {
   margin-left: 1rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
 }
 
 .flex {
@@ -671,11 +656,6 @@ video {
 .size-60 {
   width: 15rem;
   height: 15rem;
-}
-
-.size-10 {
-  width: 2.5rem;
-  height: 2.5rem;
 }
 
 .size-8 {
@@ -1015,14 +995,14 @@ video {
   background-color: rgb(28 153 145 / var(--tw-bg-opacity));
 }
 
-.active\:text-veryDarkPurple:active {
-  --tw-text-opacity: 1;
-  color: rgb(60 34 125 / var(--tw-text-opacity));
-}
-
 .active\:text-darkPurple:active {
   --tw-text-opacity: 1;
   color: rgb(76 48 145 / var(--tw-text-opacity));
+}
+
+.active\:text-veryDarkPurple:active {
+  --tw-text-opacity: 1;
+  color: rgb(60 34 125 / var(--tw-text-opacity));
 }
 
 @media not all and (min-width: 1024px) {
@@ -1032,14 +1012,6 @@ video {
 }
 
 @media (min-width: 640px) {
-  .sm\:flex {
-    display: flex;
-  }
-
-  .sm\:hidden {
-    display: none;
-  }
-
   .sm\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
@@ -1054,14 +1026,6 @@ video {
 
   .md\:mb-20 {
     margin-bottom: 5rem;
-  }
-
-  .md\:flex {
-    display: flex;
-  }
-
-  .md\:hidden {
-    display: none;
   }
 
   .md\:size-80 {
@@ -1094,10 +1058,6 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:flex {
-    display: flex;
-  }
-
   .lg\:hidden {
     display: none;
   }
