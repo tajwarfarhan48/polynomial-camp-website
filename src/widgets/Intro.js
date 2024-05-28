@@ -9,7 +9,7 @@ function Intro() {
     const isVisible = useIfVisible(ref1);
 
     return (
-        <div ref={ref1} className={`flex flex-col space-y-4 my-10 transition opacity ease-in duration-700 ${isVisible ? "opacity-100" : "opacity-0"}`}>
+        <div id='vision' ref={ref1} className={`scroll-py-12 flex flex-col space-y-4 my-10 transition opacity ease-in duration-700 ${isVisible ? "opacity-100" : "opacity-0"}`}>
             <h1 className="text-5xl font-bold text-center text-cream mb-6">OUR VISION</h1>
             <Quote text={"''It is in this gesture of 'going beyond,' to be something in oneself rather than the pawn of a consensus, the refusal to stay within a rigid circle that others have drawn around one - it is in this solitary act that one finds true creativity. All other things follow as a matter of course.''"} author={"ALEXANDER GROTHENDIECK"}/>
             <Paragraph text={"The world of science is vast and deeply mysterious. There is a lot more to mathematics than only solving integrals. There is a lot more to physics than calculating dynamics. Science tells us something deep about the universe we live in. Indeed, mathematics gives us a language and a whole world of abstract objects that describe the natural world around us - from numbers and functions describing very visible phenomena to abstract things groups describing symmetries, coordinate rings describing spaces cut out by polynomials and topology helping us characterize geometric properties. Physics provides us a language to understand nature, both at a microscopic level and the colossal one. Computer science is much more than simply writing code for applications - it provides us tools to understand what problems are solvable at all and how fast we can hope to solve them."}/>

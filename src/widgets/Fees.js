@@ -30,7 +30,7 @@ function Fees() {
     const isVisible = useIfVisible(ref);
 
     return (
-        <div ref={ref} className={`flex flex-col mt-6 mb-12 space-y-8 transition-opacity ease-in duration-700 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
+        <div id="fees" ref={ref} className={`flex flex-col mt-6 mb-12 space-y-8 transition-opacity ease-in duration-700 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
             <h1 className="text-4xl font-bold text-center text-cream">OUR FEES</h1>
             <p className="leading-relaxed tracking-wide font-light text-lg text-center text-cream">We are offering a few bundles:</p>
             <div className="flex justify-center">

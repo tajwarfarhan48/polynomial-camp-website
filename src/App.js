@@ -1,4 +1,5 @@
 import './output.css';
+import './App.css';
 import Navbar from './widgets/Navbar.js';
 import Banner from './widgets/Banner.js';
 import Intro from './widgets/Intro.js';

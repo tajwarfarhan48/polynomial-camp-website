@@ -64,7 +64,7 @@ function Team() {
     const isVisible = useIfVisible(ref);
 
     return (
-        <div>
+        <div id="team">
             <h1 ref={ref} className={`text-5xl font-bold text-center text-cream my-6 md:my-12 transition-opacity ease-in duration-700 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>MEET THE TEAM</h1>
             <ul>
                 {teamMembers.map((t) => <TeamMember key={t.key} name={t.name} camp={t.camp} image={t.image} websiteLink={t.websiteLink} description={t.description} />)}

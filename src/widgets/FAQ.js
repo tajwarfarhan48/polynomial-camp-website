@@ -7,7 +7,7 @@ function FAQ() {
   const isVisible = useIfVisible(ref);
 
   return (
-    <div ref={ref} className={`w-full mt-6 transition-opacity ease-in duration-700 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
+    <div id="faq" ref={ref} className={`w-full mt-6 transition-opacity ease-in duration-700 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
       <h1 className="text-4xl font-bold text-center text-cream mb-6">FREQUENTLY ASKED QUESTIONS</h1>
 
       <h1 className="font-bold text-2xl mb-4 text-purple">What are the dates for Polynomial Camp?</h1>

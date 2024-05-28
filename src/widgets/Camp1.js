@@ -10,7 +10,7 @@ function Camp1() {
     const isVisible = useIfVisible(ref);
 
     return (
-        <div ref={ref} className={`flex flex-col space-y-6 mt-6 mb-12 transition-opacity ease-in duration-700 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
+        <div id="courses" ref={ref} className={`flex flex-col space-y-6 mt-6 mb-12 transition-opacity ease-in duration-700 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
             <h1 className="text-4xl font-bold text-center text-cream">MATHEMATICS CAMP 1 - REAL ANALYSIS AND LINEAR ALGEBRA</h1>
             <p className="text-center w-full text-cream font-bold text-xl">Instructor: Jubayer Ibn Hamid</p>
             <Quote text={"''The beauty of mathematics only shows itself to more patient followers''"} author={"MARYAM MIRZAKHAMI"} />

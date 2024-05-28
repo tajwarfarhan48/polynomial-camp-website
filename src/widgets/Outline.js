@@ -45,7 +45,7 @@ function Outline() {
     const isVisible = useIfVisible(ref);
 
     return (
-        <div ref={ref} className={`space-y-6 mt-6 mb-12 transition-opacity ease-in duration-700 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
+        <div id="outline" ref={ref} className={`space-y-6 mt-6 mb-12 transition-opacity ease-in duration-700 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
             <h1 className="text-4xl font-bold text-center text-cream mb-2">WHAT WILL BE INCLUDED?</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {perks.map((p) => <Perk key={p.key} svg={p.svg} title={p.title} description={p.description} />)}
