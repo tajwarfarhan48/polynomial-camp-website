@@ -86,7 +86,7 @@ function TeamMember({ name, camp, image, websiteLink, description }) {
                 <p className="text-center text-purple font-bold text-3xl mb-3">{name}</p>
                 <p className="text-center text-purple font-bold text-xl mb-5">{camp}</p>
                 <p className="leading-relaxed tracking-wide text-cream text-md font-light text-center mb-5">{description}</p>
-                <button className="mb-12 transition duration-100 ease-in hover:bg-purple active:bg-darkPurple md:mb-20 border border-cream rounded-full px-4 py-2 w-fit"><a href={websiteLink}><p className="text-white">Visit their Website</p></a></button>
+                <a href={websiteLink}><button className="mb-12 transition duration-100 ease-in hover:bg-purple active:bg-darkPurple md:mb-20 border border-cream rounded-full px-4 py-2 w-fit"><p className="text-white">Visit their Website</p></button></a>
             </div>
         </li>
     );
