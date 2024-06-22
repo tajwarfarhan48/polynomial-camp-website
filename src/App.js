@@ -10,6 +10,7 @@ import Camp2 from './widgets/Camp2.js';
 import Camp3 from './widgets/Camp3.js';
 import Camp4 from './widgets/Camp4.js';
 import Team from './widgets/Team.js';
+import Schedule from './widgets/Schedule.js';
 import Fees from './widgets/Fees.js';
 import Footer from './widgets/Footer.js';
 
@@ -26,6 +27,7 @@ function App() {
         <Camp3 />
         <Camp4 />
         <Outline />
+        <Schedule />
         <Fees />
         <FAQ />
       </div>
