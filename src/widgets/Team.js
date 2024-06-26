@@ -3,7 +3,7 @@ import '../output.css';
 import JubayerImage from '../static/img/jubayer-image.jpg';
 import TausifImage from '../static/img/tausif-image.jpeg';
 import FarhanImage from '../static/img/farhan-image.jpeg';
-import IfditaImage from '../static/img/ifdita-image.jpeg';
+// import IfditaImage from '../static/img/ifdita-image.jpeg';
 import RamishaImage from '../static/img/ramisha-image.jpeg';
 import HasifImage from '../static/img/hasif-image.png';
 import useIfVisible from '../useIfVisible';
@@ -33,14 +33,14 @@ let teamMembers = [
         websiteLink: 'https://farhantajwar.com',
         description: "Farhan is currently working as a software developer at UT Health San Antonio. He is pursuing his bachelor's in Computer Science at the University of Texas at San Antonio. His primary interests in computer science include computer architecture and operating systems development. His previous projects include making an operating system from scratch, designing an interpreter for a proprietary programming language, and working on IoT-device classification using LLMs with a UTSA faculty member. He is passionate about making STEM education more accessible to a wider audience.",
     },
-    {
-        key: 3,
-        name: 'Ifdita Hasan Orney',
-        camp: 'Computer Science Camp',
-        image: IfditaImage,
-        websiteLink: 'https://www.linkedin.com/in/ifdita-hasan-861597218/',
-        description: "Ifdita Hasan Orney is currently completing her bachelor's degree in Computer Science with a minor in Mathematics at Stanford University. She is currently doing machine learning research focusing on multi-level feedback generation using Large Language Models (LLMs) and Reinforcement Learning from Human Feedback (RLHF). Her previous research involved using reinforcement learning for autonomous systems. Additionally, Ifdita has been an active member of the Stanford Solar Car Project and has conducted coding workshops for young children with Stanford Women in Computer Science (WiCS).",
-    },
+    // {
+    //     key: 3,
+    //     name: 'Ifdita Hasan Orney',
+    //     camp: 'Computer Science Camp',
+    //     image: IfditaImage,
+    //     websiteLink: 'https://www.linkedin.com/in/ifdita-hasan-861597218/',
+    //     description: "Ifdita Hasan Orney is currently completing her bachelor's degree in Computer Science with a minor in Mathematics at Stanford University. She is currently doing machine learning research focusing on multi-level feedback generation using Large Language Models (LLMs) and Reinforcement Learning from Human Feedback (RLHF). Her previous research involved using reinforcement learning for autonomous systems. Additionally, Ifdita has been an active member of the Stanford Solar Car Project and has conducted coding workshops for young children with Stanford Women in Computer Science (WiCS).",
+    // },
     {
         key: 4,
         name: 'Ramisha Sharika',
