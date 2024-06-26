@@ -42,7 +42,7 @@ function Navbar() {
           <div className="max-lg:hidden flex items-center text-lg mx-8 space-x-6">
             {links.map((l, i) => <NavbarLink key={i} label={l.label} link={l.link} />)}
           </div>
-          <Button label={"Sign Up"} link={"https://docs.google.com/forms/d/e/1FAIpQLScg_J3PzjgXD_rF1rz3AqbQy_TjTJpHOfGUAvhYCzygBFzpeA/viewform"} />
+          <Button label={"Sign Up"} link={"https://docs.google.com/forms/d/e/1FAIpQLSdHzKRp6aSJpXY3jEn7JrlxSPsjt8VsRVwYFxE58BewVe6ZBQ/viewform"} />
           <img alt='menu-icon' src={expanded ? CrossSVG : MenuSVG} onClick={() => {setExpanded(!expanded)}} className="lg:hidden size-8 ml-4"></img>
         </div>
       </div>
