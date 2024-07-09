@@ -19,7 +19,7 @@ function Camp4() {
             <Paragraph text={"We will begin by taking a look at the motivations behind some common data structures like arrays and linked lists, and then study some commonly-used algorithms for those data structures (such as insertion and sorting algorithms). Later on, we will encounter some more specialized data structures, such as trees (for storing hierarchical data), graphs (for networked data), and heaps (for ordered data)."} />
             <Paragraph text={"The language for this course will be Python. Don't worry - as we go along, we will cover all the necessary Python skills you will need for completing this course!"} />
             <div className="flex justify-center w-full">
-                <Button label={"Sign Up Now"} link={"https://docs.google.com/forms/d/e/1FAIpQLScg_J3PzjgXD_rF1rz3AqbQy_TjTJpHOfGUAvhYCzygBFzpeA/viewform"} />
+                <Button label={"Sign Up Now"} link={"https://docs.google.com/forms/d/e/1FAIpQLSdHzKRp6aSJpXY3jEn7JrlxSPsjt8VsRVwYFxE58BewVe6ZBQ/viewform"} />
             </div>
         </div>
     );

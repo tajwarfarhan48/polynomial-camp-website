@@ -19,7 +19,7 @@ function Camp3() {
             <Paragraph text={"We will also focus some time on learning computational physics skills like how we can actually simulate complicated physical systems. We will use Python to learn together how we can not only study but also animate a double pendulum or other chaotic systems such as a 3-Body Problem! Thus, by the end of the course you will be able to make many novel connections on how interconnected physics is. You will hopefully also have the computational tools to be able to do your own simulations and research projects, which I think will be a great foundation to have for a future in any science or data analysis field."} />
             <Paragraph text={"Prerequisites: We hope you’ve learnt calculus at an introductory level, as taught till grade 10. We will work through physics from first principles so no advanced knowledge is necessary. We will also start the computational physics code from the basics so no prior coding knowledge is needed!"} />
             <div className="flex justify-center w-full">
-                <Button label={"Sign Up Now"} link={"https://docs.google.com/forms/d/e/1FAIpQLScg_J3PzjgXD_rF1rz3AqbQy_TjTJpHOfGUAvhYCzygBFzpeA/viewform"} />
+                <Button label={"Sign Up Now"} link={"https://docs.google.com/forms/d/e/1FAIpQLSdHzKRp6aSJpXY3jEn7JrlxSPsjt8VsRVwYFxE58BewVe6ZBQ/viewform"} />
             </div>
         </div>
     );

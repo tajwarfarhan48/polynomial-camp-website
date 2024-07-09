@@ -19,7 +19,7 @@ function Camp1() {
             <Paragraph text={"These techniques will become very useful in any field of science you go to. In optimization, one would frequently face problems like optimizing resources under certain constraints or scheduling usage of batteries to conserve electricity or optimizing a portfolio at an investment bank; you would often find yourself formulating these problems through things like “linear programming”, “second order cone programming”, etc which, more often than not, are in the language of linear algebra. In machine learning, you would often find yourself trying to analyze local properties of a loss surface using real analysis. The most rigorous study of probability and statistics is founded on real analysis."} />
             <Paragraph text={"Prerequisites: we hope that you know the mathematics that is taught up until 10th grade. We will also learn everything through proving them. Do not worry if you do not know proof-writing yet - we will teach an introduction to proof-writing as well. While the course content may seem daunting, we promise we will go at a pace that you can understand and, more importantly, enjoy."} />
             <div className="flex justify-center w-full">
-                <Button label={"Sign Up Now"} link={"https://docs.google.com/forms/d/e/1FAIpQLScg_J3PzjgXD_rF1rz3AqbQy_TjTJpHOfGUAvhYCzygBFzpeA/viewform"} />
+                <Button label={"Sign Up Now"} link={"https://docs.google.com/forms/d/e/1FAIpQLSdHzKRp6aSJpXY3jEn7JrlxSPsjt8VsRVwYFxE58BewVe6ZBQ/viewform"} />
             </div>
         </div>
     );

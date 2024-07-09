@@ -22,6 +22,10 @@ let links = [
     'link': '#outline'
   },
   {
+    'label': 'Schedule',
+    'link': '#schedule'
+  },
+  {
     'label': 'Fees',
     'link': '#fees'
   },
